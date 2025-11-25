@@ -13,6 +13,11 @@ It is designed for reproducing specific environments and behaviors using the sam
 - **Longitudinal Control using PID**
 - **Lateral Control using Stanley Controller**
 
+
+- **In progress**
+  - Combined lateral and longitudinal control.
+  - Add camera for more advanced feedback.
+
 >  Note: The CARLA binaries and map assets are not stored in this repository due to file size limits.
 
 ---
@@ -25,3 +30,7 @@ Download the preconfigured CARLA setup (matching this repository’s version):
 
 > Follow the included guides for both Linux and Windows installation instructions.
 > Note: The simplest method is to setup a pyenv and you MUST use Python3.5 or 3.6 (I recommend 3.6, I could not get python3.5 to work)
+
+
+## Acknowledgements
+Thanks to Steven Waslander for designing the course and to Jonathan Kelly, another instructor for the course.
